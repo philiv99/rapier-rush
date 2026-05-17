@@ -1,0 +1,29 @@
+export const GAME_CONSTANTS = {
+  HEALTH_MAX: 100,
+  DAMAGE_PER_HIT: 10,
+  BASE_SCORE: 10,
+  COMBO_RESET_DELAY: 2000, // milliseconds
+  DIFFICULTY_LEVELS: 5,
+};
+
+export const MOVES = {
+  ATTACK_HIGH: 'ATTACK_HIGH',
+  ATTACK_LOW: 'ATTACK_LOW',
+  PARRY_HIGH: 'PARRY_HIGH',
+  PARRY_LOW: 'PARRY_LOW',
+} as const;
+
+export const SCENES = {
+  BOOT: 'BOOT',
+  TITLE: 'TITLE',
+  HOW_TO_PLAY: 'HOW_TO_PLAY',
+  PLAYING: 'PLAYING',
+  RESULTS: 'RESULTS',
+  GAME_OVER: 'GAME_OVER',
+} as const;
+
+export const GAME_MODES = {
+  CLASSIC: 'CLASSIC',
+  TRAINING: 'TRAINING',
+  ENDLESS: 'ENDLESS',
+} as const;

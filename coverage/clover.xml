@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1779030478635" clover="3.2.0">
+  <project timestamp="1779030478635" name="All files">
+    <metrics statements="43" coveredstatements="42" conditionals="19" coveredconditionals="17" methods="5" coveredmethods="5" elements="67" coveredelements="64" complexity="0" loc="43" ncloc="43" packages="2" files="2" classes="2"/>
+    <package name="game">
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="constants.ts" path="C:\development\repos\rapier-rush\src\game\constants.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="2" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="16" count="2" type="stmt"/>
+        <line num="25" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="game.logic">
+      <metrics statements="39" coveredstatements="38" conditionals="19" coveredconditionals="17" methods="5" coveredmethods="5"/>
+      <file name="opponentAI.ts" path="C:\development\repos\rapier-rush\src\game\logic\opponentAI.ts">
+        <metrics statements="39" coveredstatements="38" conditionals="19" coveredconditionals="17" methods="5" coveredmethods="5"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="26" count="1155" type="stmt"/>
+        <line num="27" count="1155" type="stmt"/>
+        <line num="30" count="1155" type="stmt"/>
+        <line num="31" count="1155" type="stmt"/>
+        <line num="34" count="1155" type="cond" truecount="2" falsecount="0"/>
+        <line num="35" count="1" type="stmt"/>
+        <line num="42" count="1154" type="stmt"/>
+        <line num="43" count="1154" type="stmt"/>
+        <line num="44" count="1154" type="stmt"/>
+        <line num="46" count="1154" type="cond" truecount="2" falsecount="0"/>
+        <line num="48" count="851" type="stmt"/>
+        <line num="49" count="851" type="stmt"/>
+        <line num="54" count="303" type="cond" truecount="2" falsecount="0"/>
+        <line num="56" count="119" type="stmt"/>
+        <line num="62" count="184" type="stmt"/>
+        <line num="74" count="851" type="stmt"/>
+        <line num="77" count="851" type="cond" truecount="2" falsecount="0"/>
+        <line num="78" count="40" type="stmt"/>
+        <line num="79" count="40" type="cond" truecount="1" falsecount="1"/>
+        <line num="83" count="811" type="cond" truecount="1" falsecount="1"/>
+        <line num="85" count="0" type="stmt"/>
+        <line num="88" count="811" type="stmt"/>
+        <line num="96" count="11" type="stmt"/>
+        <line num="105" count="11" type="cond" truecount="2" falsecount="0"/>
+        <line num="106" count="11" type="stmt"/>
+        <line num="108" count="11" type="stmt"/>
+        <line num="115" count="10" type="stmt"/>
+        <line num="125" count="305" type="stmt"/>
+        <line num="126" count="305" type="stmt"/>
+        <line num="128" count="305" type="stmt"/>
+        <line num="129" count="305" type="stmt"/>
+        <line num="130" count="305" type="cond" truecount="2" falsecount="0"/>
+        <line num="131" count="103" type="stmt"/>
+        <line num="132" count="202" type="cond" truecount="2" falsecount="0"/>
+        <line num="133" count="87" type="stmt"/>
+        <line num="135" count="115" type="stmt"/>
+        <line num="138" count="305" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
